@@ -1,0 +1,44 @@
+{
+  "name": "char-escape",
+  "version": "1.0.0",
+  "description": "Finds all instances of given characters in a string and inserts an escape sequence before each one.",
+  "keywords": [
+    "string",
+    "character",
+    "char",
+    "escape",
+    "slash",
+    "backslash"
+  ],
+  "author": {
+    "name": "Fr. John Lamansky",
+    "url": "lamansky.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/char-escape",
+  "repository": "lamansky/char-escape",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "2": "^2.0.0",
+    "deduplicate": "^1.0.0",
+    "escape-string-regexp": "^2.0.0",
+    "longest-first": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^2.0.0",
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
